@@ -1,10 +1,10 @@
 {
-    name: "simple_app",
-    version: "1.0.0",
-    description: "a simple sample app of api baker",
-    language:"node",
-    database:"mysql",
-    author:"apibaker.com",
+    "name": "simple_app",
+    "version": "1.0.0",
+    "description": "a simple sample app of api baker",
+    "language":"node",
+    "database":"mysql",
+    "author":"apibaker.com",
     "domain": [
         {
             "name": "main",
