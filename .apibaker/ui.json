@@ -1,0 +1,11 @@
+{
+  menu:{
+    type:"menu",
+    
+  },
+  home:{
+    type:"page",
+    title:"app",
+    action:"CreateEnt1"
+  }
+}
