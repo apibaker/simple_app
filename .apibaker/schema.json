@@ -1,0 +1,49 @@
+{
+    "name": "simple_app",
+    "version": "1.0.0",
+    "description": "a simple sample app of api baker",
+    "language": "node",
+    "database": "mysql",
+    "author": "apibaker.com",
+    "domain": [
+        {
+            "name": "main",
+            "description": "main domain",
+            "entity": [
+                {
+                    "name": "Ent",
+                    "description": "ent",
+                    "prop": [
+                        {
+                            "name": "Prop1",
+                            "description": "Prop1",
+                            "type": "string"
+                        }
+                    ],
+                    "action": [
+                        {
+                            "name": "CreateEnt",
+                            "description": "create ent",
+                            "type": "Create",
+                            "field": [
+                                "Prop1"
+                            ],
+                            "path": "/ent",
+                            "method": "PUT"
+                        },
+                        {
+                            "name": "ReadEnt",
+                            "description": "read ent",
+                            "type": "Read",
+                            "field": [
+                                "Prop1"
+                            ],
+                            "path": "/ent/:id",
+                            "method": "GET"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
