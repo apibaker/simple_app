@@ -1,0 +1,27 @@
+[
+    {
+        "action": "main_CreateEnt",
+        "in": {
+            "obj": {
+                "Prop1": "str1"
+            }
+        },
+        "out": {
+            "main_EntId": 1
+        }
+    },
+    {
+        "action": "main_ReadEnt",
+        "in": {
+            "id": 1
+        },
+        "out": {
+            "count": 1,
+            "data": [
+                {
+                    "Prop1": "str1"
+                }
+            ]
+        }
+    }
+]
